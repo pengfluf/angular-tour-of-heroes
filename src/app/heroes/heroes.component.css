@@ -1,0 +1,68 @@
+.heroesWrapper {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+
+  flex-basis: 40%;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+
+  width: 100%;
+  max-width: 170px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+
+  cursor: pointer;
+  transition: 0.3s all;
+
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+
+.hero:first-of-type {
+  margin-top: 0;
+}
+
+.hero:hover {
+  background-color: bisque;
+}
+
+.heroSelected,
+.heroSelected:hover {
+  background-color: gold;
+}
+
+.id {
+  font-weight: 700;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.changeName {
+  text-align: center;
+
+  flex-basis: 60%;
+}
