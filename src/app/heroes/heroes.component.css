@@ -60,9 +60,3 @@
 .name {
   margin-left: 10px;
 }
-
-.changeName {
-  text-align: center;
-
-  flex-basis: 60%;
-}
