@@ -70,3 +70,7 @@
 .name {
   margin-left: 10px;
 }
+
+.delete {
+  align-self: center;
+}
